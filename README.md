@@ -32,12 +32,15 @@ Existing distributed fiber-optic sensing frameworks predominantly rely on isolat
 The following figures illustrate the core transformation pipeline and the structural differences captured by the multi-channel early fusion approach:
 
 ![Framework Pipeline](assets/fig1.png)
+
 *Figure 1: End-to-end framework illustrating dataset aggregation, 1/f noise injection, and 1D-to-2D multi-channel image transformation.*
 
 ![Transformed Samples](assets/fig2.png)
+
 *Figure 2: Examples of the fused 24-bit RGB representations (GADF, GASF, RP) across six distinct event classes.*
 
 ![Transfer Learning](assets/fig3.png)
+
 *Figure 3: Transfer learning model architecture leveraging pre-trained CNN backbones for multi-class event classification.*
 
 ---
@@ -124,6 +127,7 @@ python src/4_train_benchmark.py
 
 If you find this repository useful in your research, please cite our paper:
 
+```text
 @article{Yeke2026,
   author  = {Yeke, Muhammet Cagri and Sirin, Samil and Yuksel, Kivilcim and Gumus, Abdurrahman},
   title   = {$\Phi$-{OTDR} event detection using image-based data transformation and deep learning},
@@ -135,7 +139,7 @@ If you find this repository useful in your research, please cite our paper:
   doi     = {10.1007/s10044-026-01694-z},
   url     = {https://doi.org/10.1007/s10044-026-01694-z}
 }
-
+```
 The raw data utilized is based on the open-source dataset provided by Cao et al.:
 > Cao, X., Su, Y., Jin, Z., & Yu, K. (2023). An open dataset of $\Phi$-OTDR events with two classification models as baselines. Results in Optics, 10, 100372. https://doi.org/10.1016/j.rio.2023.100372
 
