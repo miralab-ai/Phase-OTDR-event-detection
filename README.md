@@ -161,6 +161,3 @@ If you find this repository useful in your research, please cite our paper:
 ```
 The raw data utilized is based on the open-source dataset provided by Cao et al.:
 > Cao, X., Su, Y., Jin, Z., & Yu, K. (2023). An open dataset of $\Phi$-OTDR events with two classification models as baselines. Results in Optics, 10, 100372. https://doi.org/10.1016/j.rio.2023.100372
-
-## License
-This project is licensed under the MIT License.
