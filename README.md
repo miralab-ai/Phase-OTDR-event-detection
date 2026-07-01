@@ -1,6 +1,6 @@
 # $\Phi$-OTDR Event Detection Using Image-Based Data Transformation and Deep Learning
 
-[![DOI](https://img.shields.io/badge/DOI-10.1007/s10044--026--01694--z-blue)](https://doi.org/10.1007/s10044-026-01694-z)
+Article Link: [![DOI](https://img.shields.io/badge/DOI-10.1007/s10044--026--01694--z-blue)](https://doi.org/10.1007/s10044-026-01694-z)
 
 This repository contains the official implementation of the paper: **" $\Phi$-OTDR Event Detection Using Image-Based Data Transformation and Deep Learning"**, published in Pattern Analysis and Applications (2026).
 
