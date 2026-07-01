@@ -83,6 +83,25 @@ cd Phase-OTDR-event-detection
 pip install -r requirements.txt
 
 ---
+## Data Preparation
+
+The `data/` directory is intentionally empty as the raw dataset is managed as an external resource. To run the pipeline, please follow these steps:
+
+1. **Download the Original Dataset:** 
+   Obtain the raw $\Phi$-OTDR dataset from the original publication by Cao et al. (2023) [https://doi.org/10.1016/j.rio.2023.100372].
+
+2. **Setup Data Structure:**
+   Create the following directory structure within the project folder:
+   ```text
+   data/
+   └── 0_downloaded_dataset/
+       ├── train/
+       └── test/
+   ```
+3. **Populate:**
+   Extract the downloaded files into the data/0_downloaded_dataset/ folder, ensuring the train/ and test/ subdirectories are correctly placed. 
+   
+---
 
 ## Project Pipeline & Step-by-Step Execution
 
